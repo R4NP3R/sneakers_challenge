@@ -98,7 +98,7 @@ export const Header = () => {
           </li>
         </menu>
       </nav>
-      <div className='w-full flex justify-end items-center relative z-10'>
+      <div className='w-full flex justify-end items-center relative'>
         <div className='relative h-full flex justify-center'>
         <AnimatePresence>
         {cartProducts.length !== 0 && 
